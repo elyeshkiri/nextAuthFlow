@@ -8,6 +8,8 @@ const nextConfig = {
     REALM: process.env.REALM,
     CLIENTID: process.env.CLIENTID,
     CLIENTSECRET: process.env.CLIENTID,
+    USERNAME: process.env.USERNAME,
+    PASSWORD: process.env.PASSWORD,
   },
 };
 

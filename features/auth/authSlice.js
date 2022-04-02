@@ -11,8 +11,8 @@ export const signupUser = createAsyncThunk(
       const admin = await axios.post(
         process.env.AUTHOST + "/realms/nextonjiz/protocol/openid-connect/token",
         qs.stringify({
-          username: "hkirielyes25@gmail.com",
-          password: "123123123",
+          username: process.env.USERNAME,
+          password: process.env.PASSWORD,
           client_id: process.env.CLIENTID,
           client_secret: process.env.SECRET,
           grant_type: "password",
