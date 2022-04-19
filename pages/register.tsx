@@ -59,7 +59,6 @@ export default function Register() {
           id="email"
           name="email"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
-          formControlName="email"
           aria-describedby="emailHelp"
           placeholder="name@company.com"
         />
@@ -76,7 +75,7 @@ export default function Register() {
             className="border-0 w-50"
             type="tel"
             placeholder="Phone Number"
-            formControlName="phoneNumber"
+            
           />
         </div>
         {/* <div>

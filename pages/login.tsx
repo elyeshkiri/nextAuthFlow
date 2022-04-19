@@ -97,7 +97,6 @@ const Login = ({}) => {
             style={{ paddingLeft: "40px" }}
             id="email"
             name="email"
-            formControlName="email"
             aria-describedby="emailHelp"
             placeholder="Email"
           />
@@ -116,7 +115,6 @@ const Login = ({}) => {
             style={{ paddingLeft: "40px !important" }}
             id="password"
             name="password"
-            formControlName="password"
             placeholder="Password"
           />
           <div
