@@ -1,0 +1,53 @@
+.card {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  background-color: #f9f9f9 !important;
+  padding: 7px 10px;
+  outline: none;
+  transition: all 0.3s ease 0s;
+  .date {
+    font-size: 12px;
+    color: $dark-grey;
+  }
+  .status {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: Poppins-Medium !important;
+  }
+  .card-body {
+    flex: inherit !important;
+  }
+  &:hover {
+    background: #f2f3f5 !important;
+    cursor: pointer;
+    box-shadow: 0 0px 15px 0 rgba(0,0,0,.1), 0 5px 10px 0 rgba(0,0,0,.13);
+  }
+}
+.options {
+  cursor: pointer;
+  z-index: 1;
+  height: 24px;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  width: 34px;
+  text-align: center;
+  border-radius: 3px;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+  i {
+    font-size: 24px;
+    color: #c1c1c1;
+  }
+}
+.options-rtl {
+  right: inherit;
+  left: 20px;
+}
+.options:hover {
+  i {
+    color: #5b215b;
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.298" height="37.298" viewBox="0 0 37.298 37.298">
+  <g id="logout" transform="translate(0 0)">
+    <ellipse id="Ellipse_175" data-name="Ellipse 175" cx="18.649" cy="18.649" rx="18.649" ry="18.649" fill="#ffdc00"/>
+    <path id="Path_914" data-name="Path 914" d="M181.412,90.01c0-.605-.03-1.2-.086-1.795L170.109,77,155.5,102.609l5.96,5.96q.666.048,1.345.049A18.607,18.607,0,0,0,181.412,90.01Z" transform="translate(-144.113 -71.319)" fill="#ffc000"/>
+    <rect id="Rectangle_810" data-name="Rectangle 810" width="14.609" height="25.693" transform="translate(11.344 5.597)" fill="#333"/>
+    <rect id="Rectangle_811" data-name="Rectangle 811" width="7.329" height="25.693" transform="translate(18.635 5.597)" fill="#1a1a1a"/>
+    <rect id="Rectangle_812" data-name="Rectangle 812" width="12.211" height="20.497" transform="translate(12.544 7.415)" fill="#ff6838"/>
+    <rect id="Rectangle_813" data-name="Rectangle 813" width="12.211" height="20.497" transform="translate(12.544 7.415)" fill="#ffb344"/>
+    <rect id="Rectangle_814" data-name="Rectangle 814" width="6.129" height="20.497" transform="translate(18.633 7.415)" fill="#ff9451"/>
+    <rect id="Rectangle_815" data-name="Rectangle 815" width="3.575" height="12.004" transform="translate(15.069 11.662)" fill="#fff"/>
+    <rect id="Rectangle_816" data-name="Rectangle 816" width="3.575" height="6.111" transform="translate(15.069 17.564)" fill="#e0e0e0"/>
+    <ellipse id="Ellipse_176" data-name="Ellipse 176" cx="0.909" cy="0.909" rx="0.909" ry="0.909" transform="translate(17.741 28.56)" fill="#1a1a1a"/>
+    <path id="Path_915" data-name="Path 915" d="M255.691,392h-.024v1.815h.024a.909.909,0,1,0,0-1.817Z" transform="translate(-237.041 -363.44)"/>
+    <path id="Path_916" data-name="Path 916" d="M213.786,169.685l-1.622,1.622,2.507,2.507h-7.865v2.293h7.854l-2.541,2.541,1.622,1.622,5.315-5.315Z" transform="translate(-191.724 -157.313)" fill="#0074a3"/>
+    <path id="Path_917" data-name="Path 917" d="M206.806,242.192v1.152h7.854l-2.541,2.541,1.622,1.622,5.315-5.315Z" transform="translate(-191.724 -224.542)" fill="#005c83"/>
+  </g>
+</svg>

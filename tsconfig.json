@@ -15,6 +15,12 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "features/auth/authSlice.js"],
+  "awesomeTypescriptLoaderOptions": {
+    "useWebpackText": true,
+    "useTranspileModule": true,
+    "doTypeCheck": true,
+    "forkChecker": true
+    },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "features/auth/authSlice.js", "pages/otp-verification.js"],
   "exclude": ["node_modules"]
 }

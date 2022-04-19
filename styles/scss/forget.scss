@@ -1,0 +1,41 @@
+
+  .form-holder .menu-holder {
+    text-align: right;
+    padding: 22px 30px;
+  }
+  .home {
+    left: 570px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease 0s;
+    outline: none;
+    background-color: #5b215b;
+    color: #ffffff;
+    &:hover {
+      background-color: #fdc90b;
+      color: #000000;
+    }
+  }
+  .form-sign {
+    width: 100%;
+    height: calc(100vh - 270px);
+    max-width: 500px;
+    padding: 15px;
+    margin-left: calc(50% + 20px);
+    .logo{
+      margin-left: calc((100% - 72px) / 2);
+    }
+  }
+  @media(max-width: 1200px){
+    .form-sign{
+      height: calc(100vh - 291px);
+    }
+  }
+  @media (max-width:992px){
+    .form-sign {
+      height: calc(100vh - 333px);
+      margin: 0 auto;
+    }
+    .home {
+      left: 20px;
+    }
+  }

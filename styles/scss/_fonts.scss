@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("/../assets/fonts/poppins/Poppins-Regular.otf");
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("/../assets/fonts/poppins/Poppins-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("/../assets/fonts/poppins/Poppins-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "cairo";
+    src: url("/../assets/fonts/cairo/Cairo-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "cairo-bold";
+    src: url("/../assets/fonts/cairo/Cairo-Bold.ttf") format("opentype");
+}
+
+.font-light {
+    font-family: Poppins-Light, cairo !important;
+}
+
+.font-medium {
+    font-family: Poppins-Medium, cairo-bold !important;
+}
+
+.font-bold {
+    font-family: Poppins-Bold, cairo-bold !important;
+}
+
+.font-medium-arabe {
+    font-family: cairo-bold !important;
+    font-size: 13px !important;
+}

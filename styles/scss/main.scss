@@ -1,0 +1,422 @@
+@import "variables.scss";
+@import "colors.scss";
+@import "components/card";
+@import "components/forms.scss";
+@import "components/buttons.scss";
+@import "fonts.scss";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~ng-pick-datetime/assets/style/picker.min.css";
+@import "sweet-alert.scss";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import "../../node_modules/angular-calendar/css/angular-calendar.css";
+html {
+    scroll-behavior: smooth;
+}
+.app-video-dialog .mat-dialog-container {
+    padding: 0 !important;
+  }
+  app-group-video-call, app-group-video-call #meet, app-group-video-call #meet iframe{
+    height: 100% !important;
+}
+app-group-video-call #meet iframe{
+    border-radius: 5px;
+}
+body {
+    font-family: Poppins-light, cairo !important;
+    color: #000000 !important;
+    font-size: 14px !important;
+}
+
+::selection {
+    background-color: $primary-color;
+    color: #FFFFFF;
+}
+
+.bg {
+    background: linear-gradient(150deg, rgb(91, 33, 91), rgb(154, 66, 154));
+    height: 78px;
+}
+
+app-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all ease-in-out 400ms;
+    z-index: 999999999;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.main-container {
+    padding: 90px 15px 30px;
+    width: calc(100% - 140px);
+    background: #f2f3f3;
+    height: 100vh;
+}
+
+.first-content,
+.second-content,
+.third-content {
+    height: calc(100vh - 120px);
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.height-content {
+    height: calc(100vh - 120px);
+}
+
+.half-card-height {
+    height: calc(100vh - 120px) / 50% ;
+}
+
+.list-content {
+    max-height: calc(100% - 50px);
+}
+
+.mat-progress-bar-buffer {
+    background-color: #ded3de
+}
+
+.mat-progress-bar-fill::after {
+    background-color: $primary-color
+}
+
+
+/***** Scroll *******/
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c4c4c4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #757575;
+}
+
+.hidden-scroll-x {
+    overflow-x: hidden;
+    &:hover {
+        overflow-x: auto;
+    }
+}
+
+
+/***** User Details *******/
+
+.user-photo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.user {
+    width: max-content;
+    padding-left: 50px;
+    height: 40px;
+    justify-content: center;
+    font-family: Poppins-Medium, cairo-bold !important;
+    img {
+        left: 0;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .post {
+        font-size: 12px;
+        color: $dark-grey;
+    }
+}
+
+
+/***** End User Details *******/
+
+.notification-counter {
+    min-width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    padding: 1px 5px;
+    font-size: 11px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.35);
+    color: #fff;
+}
+
+
+/***** Block Title *******/
+
+.block-title {
+    text-align: center;
+    position: relative;
+}
+
+.block-title:before,
+.block-title:after {
+    content: "";
+    display: block;
+    width: calc((100% - 140px) / 2);
+    height: 2px;
+    background: $primary-color;
+    position: absolute;
+    bottom: 6px;
+}
+
+.block-title:before {
+    left: 0;
+}
+
+.block-title:after {
+    right: 0;
+}
+
+
+/***** End Block Title *******/
+
+.add-comment {
+    border-radius: 25px;
+    padding: 5px 55px;
+    
+    outline: none;
+}
+
+.communication-icon {
+    top: 5px;
+    left: 5px;
+    border: 1px solid $primary-color;
+}
+
+.communication-icon-right {
+    right: 50px;
+    left: inherit;
+}
+
+.option-add {
+    top: 0px;
+    right: 0px;
+    padding: 12px;
+}
+
+
+/***** Mat Tab *******/
+
+.mat-tab-group {
+    font-family: Poppins-light !important;
+}
+
+.mat-tab-body-wrapper,
+.mat-tab-body,
+.mat-tab-body-content {
+    height: calc(100vh - 170px);
+    overflow-y: auto !important;
+}
+
+.daily-report .mat-tab-body-wrapper,
+.daily-report .mat-tab-body,
+.daily-report .mat-tab-body-content {
+    height: calc(100vh - 315px);
+}
+
+.mat-tab-label,
+.mat-tab-link {
+    font-family: Poppins-light !important;
+    color: $primary-color !important;
+    opacity: 1 !important;
+}
+
+.mat-tab-label:focus:not(.mat-tab-disabled),
+.mat-tab-label-active {
+    background: rgba(91, 33, 91, 0.2) !important;
+    font-family: Poppins-Medium !important;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: $primary-color !important;
+}
+
+
+/***** Mat Icon *******/
+
+.mat-icon {
+    height: auto !important;
+    width: auto !important;
+}
+
+.line-nowrap {
+    white-space: nowrap;
+}
+
+.add-btn-responsive {
+    height: 40px;
+    width: 40px;
+    bottom: 5px;
+    right: 20px;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.notification-time {
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    right: 11px;
+    font-size: 12px;
+    color: gray;
+}
+
+.mat-tooltip {
+    font-size: 12px !important;
+    font-family: Poppins-Medium, cairo-bold !important;
+}
+
+.mat-progress-spinner circle,
+.mat-spinner circle {
+    stroke: $primary-color !important;
+}
+
+
+/***** RTL *******/
+
+.rtl {
+    direction: rtl;
+    text-align: right;
+    font-family: cairo;
+}
+
+.mat-menu-panel {
+    max-width: fit-content !important;
+}
+
+
+/***** Slick Slider *******/
+
+.slick-dots li button:before {
+    color: #fff !important;
+    opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+    color: $warning-color !important;
+    opacity: 1;
+}
+
+.btn-slick-features-page .slick-dots li button:before {
+    color: rgba(91, 33, 91, 0.5) !important;
+    font-size: 9px;
+}
+
+.btn-slick-features-page .slick-dots li.slick-active button:before {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(150deg, #5b215b, #ff00ff);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.btn-slick-features-page .slick-prev:before,
+.btn-slick-features-page .slick-next:before {
+    color: #8b398b;
+}
+
+.seen {
+    background: #eef5f9 !important;
+}
+
+
+/***** Responsive Style *******/
+
+@media (max-width: 992px) {
+    .bg {
+        height: 72px;
+    }
+    .main-container {
+        width: 100%;
+        left: 0;
+        padding: 75px 15px 15px;
+    }
+    .first-content,
+    .second-content,
+    .third-content {
+        height: calc(100vh - 90px);
+    }
+    .mat-tab-body-wrapper,
+    .mat-tab-body,
+    .mat-tab-body-content {
+        height: calc(100vh - 140px) !important;
+    }
+    .daily-report .mat-tab-body-wrapper,
+    .daily-report .mat-tab-body,
+    .daily-report .mat-tab-body-content {
+        height: calc(100vh - 315px) !important;
+    }
+    .mat-tooltip {
+        display: none !important;
+    }
+}
+
+.fa-angle-double-up {
+    -webkit-animation: slide-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    animation: slide-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    100% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    100% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
+@media (max-width: 576px) {
+    .bg {
+        height: 57px;
+    }
+    .main-container {
+        padding: 75px 0px 0px;
+    }
+}
+
+.card-text {
+    white-space: pre-line;
+}
+
+.ng2-pdf-viewer-container {
+    overflow-x: auto !important;
+    overflow-y: hidden;
+    position: relative !important;
+    height: 100px !important;
+    width: 200px !important;
+    direction: ltr !important;
+}

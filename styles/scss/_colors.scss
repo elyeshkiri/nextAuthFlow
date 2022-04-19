@@ -1,0 +1,103 @@
+  /*****  colors *******/
+  .primary-color {
+    color: #5b215b !important;
+  }
+  .blue-color {
+    color: #00b5fc !important;
+  }
+  .red-color {
+    color: #c83b00 !important;
+  }
+  .green-color {
+    color: #24d36b !important;
+  }
+  .yellow-color {
+    color: #fdc90b !important;
+  }
+  .dark-grey-color {
+    color: #757575 !important;
+  }
+
+/***** Background colors *******/
+.bg-light-primary {
+    background: rgba(91, 33, 91, 0.2) !important;
+  }
+  .bg-light-green {
+    background: rgba(36, 211, 107, 0.2) !important;
+  }
+  .bg-light-red {
+    background: rgba(200, 59, 0, 0.2) !important;
+  }
+  .bg-light-yellow {
+    background: rgba(253, 201, 11, 0.2) !important;
+  }
+  .bg-light-blue {
+    background: rgba(0, 181, 252, 0.2) !important;
+  }
+  .bg-light-grey {
+    background: #f2f3f5 !important;
+  }
+  .bg-dark-grey {
+    background:  #757575 !important;
+  }
+  .bg-white {
+    background: #fff !important;
+  }
+  
+  .bg-dark-primary {
+    background: #5b215b !important;
+  }
+  .bg-dark-blue {
+    background: #00b5fc !important;
+  }
+  .bg-dark-green {
+    background: #24d36b !important;
+  }
+  .bg-dark-red {
+    background: #c83b00 !important;
+  }
+  .bg-dark-yellow {
+    background: #fdc90b !important;
+  }
+  
+  /*****  border *******/
+  .border-purple {
+    border: 1px solid #5b215b !important;
+    transition: background 0.5s ease;
+    &:hover{
+      background: rgba(91, 33, 91, 0.4) !important;
+    }
+  }
+  .border-blue {
+    border: 1px solid #00b5fc !important;
+    transition: background 0.5s ease;
+    &:hover{
+      background: rgba(0, 181, 252, 0.4) !important;
+    }
+  }
+  .border-red {
+    border: 1px solid #c83b00 !important;
+    transition: background 0.5s ease;
+    &:hover{
+      background: rgba(200, 59, 0, 0.4) !important;
+    }
+  }
+  .border-green {
+    border: 1px solid #24d36b !important;
+    transition: background 0.5s ease;
+    &:hover{
+      background: rgba(36, 211, 107, 0.4) !important;
+    }
+  }
+  .border-yellow {
+    border: 1px solid #fdc90b !important;
+    transition: background 0.5s ease;
+    &:hover{
+      background: rgba(253, 201, 11, 0.4) !important;
+    }
+  }
+  .border-grey {
+    border: 1px solid #757575 !important;
+  }
+
+  

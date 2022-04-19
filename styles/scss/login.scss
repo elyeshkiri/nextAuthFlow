@@ -1,0 +1,178 @@
+.form-sign {
+  width: 100%;
+  height: calc(100vh - 270px);
+  max-width: 500px;
+  padding: 15px;
+  margin-left: calc(50% + 20px);
+  .logo {
+    margin-left: calc((100% - 72px) / 2);
+  }
+}
+.home {
+  left: 570px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease 0s;
+  outline: none;
+  background-color: #5b215b;
+  color: #ffffff;
+  &:hover {
+    background-color: #fdc90b;
+    color: #000000;
+  }
+}
+@media (max-width: 1200px) {
+  .form-sign {
+    height: calc(100vh - 291px);
+    margin-left: 60%;
+    width: 35%;
+  }
+}
+@media (max-width: 992px) {
+  .form-sign {
+    height: calc(100vh - 333px);
+    width: 80%;
+    margin: 0 auto;
+  }
+  .home {
+    left: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .form-sign {
+    height: auto;
+    width: 95%;
+    margin-top: 60px;
+  }
+}
+@media (max-height: 576px){
+  .form-sign {
+      height: auto;
+    }
+}
+
+.form-holder {
+  margin-left: auto;
+}
+
+.form-holder .menu-holder {
+  text-align: right;
+  padding: 22px 30px;
+}
+
+.form-holder .menu-holder ul.main-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-holder .menu-holder ul.main-links li {
+  display: inline-block;
+}
+
+.form-holder .menu-holder ul.main-links li a {
+  display: inline-block;
+}
+
+.form-holder .menu-holder ul.main-links li a.normal-link {
+  color: #9c9ca3;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.form-holder .menu-holder ul.main-links li a.normal-link:hover,
+.form-holder .menu-holder ul.main-links li a.normal-link:focus {
+  color: #919196;
+}
+
+.form-holder .menu-holder ul.main-links li a.sign-button {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: #fdc90b;
+  text-decoration: none;
+  margin-left: 10px;
+  -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.form-holder .menu-holder ul.main-links li a.sign-button:hover,
+.form-holder .menu-holder ul.main-links li a.sign-button:focus {
+  background-color: #5b215b;
+  color: #ffffff;
+}
+
+.form-holder.signup .menu-holder ul.main-links li a.normal-link {
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.form-holder.signup .menu-holder ul.main-links li a.normal-link:hover,
+.form-holder.signup .menu-holder ul.main-links li a.normal-link:focus {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.form-holder.signup .menu-holder ul.main-links li a.sign-button {
+  color: #929292;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  text-decoration: none;
+  margin-left: 10px;
+  -webkit-box-shadow: 0 12px 32px 0 rgba(6, 154, 71, 0.43);
+  box-shadow: 0 12px 32px 0 rgba(6, 154, 71, 0.43);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.form-holder.signup .menu-holder ul.main-links li a.sign-button .hno {
+  color: #929292;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.form-holder.signup .menu-holder ul.main-links li a.sign-button:hover,
+.form-holder.signup .menu-holder ul.main-links li a.sign-button:focus {
+  padding-right: 15px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 14px 42px 0 rgba(6, 154, 71, 0.43);
+  box-shadow: 0 14px 42px 0 rgba(6, 154, 71, 0.43);
+}
+
+.form-holder.signup .menu-holder ul.main-links li a.sign-button:hover .hno,
+.form-holder.signup .menu-holder ul.main-links li a.sign-button:focus .hno {
+  margin-left: 10px;
+}
+
+.form-holder .signin-signup-form {
+  text-align: center;
+  padding: 100px 40px 40px;
+}
+
+.form-holder .signin-signup-form ::-webkit-input-placeholder {
+  color: #526489;
+}
+
+.form-holder .signin-signup-form :-moz-placeholder {
+  color: #526489;
+}
+
+.form-holder .signin-signup-form ::-moz-placeholder {
+  color: #526489;
+}
+
+.form-holder .signin-signup-form :-ms-input-placeholder {
+  color: #526489;
+}

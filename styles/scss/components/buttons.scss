@@ -1,0 +1,63 @@
+.ybtn {
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 9px 26px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    outline: none;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.ybtn:hover,
+.ybtn:focus {
+    text-decoration: none;
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+
+.ybtn-small {
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: none;
+    padding: 5px 15px;
+    margin: 2px 4px;
+}
+
+.ybtn-shadow {
+    -webkit-box-shadow: 0 9px 18px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.08);
+}
+
+.ybtn-header-color {
+    color: #000;
+    background-color: #fdc90b;
+}
+
+.ybtn-header-color:hover,
+.ybtn-header-color:focus {
+    color: #ffffff !important;
+    background-color: #5b215b;
+}
+
+.ybtn-white {
+    color: #66556b !important;
+    background-color: #ffffff;
+}
+
+.ybtn-white:hover,
+.ybtn-white:focus {
+    color: #000 !important;
+    background-color: #cccccc;
+}

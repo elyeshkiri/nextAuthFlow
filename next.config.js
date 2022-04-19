@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+
   env: {
     HOSTNAME: process.env.HOSTNAME,
     PORT: process.env.PORT,

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.298" height="37.298" viewBox="0 0 37.298 37.298">
+  <g id="login" transform="translate(0 0)">
+    <ellipse id="Ellipse_173" data-name="Ellipse 173" cx="18.649" cy="18.649" rx="18.649" ry="18.649" fill="#ffdc00"/>
+    <path id="Path_910" data-name="Path 910" d="M181.412,90.01c0-.605-.03-1.2-.086-1.795L170.109,77,155.5,102.608l5.96,5.96q.666.048,1.345.049A18.607,18.607,0,0,0,181.412,90.01Z" transform="translate(-144.113 -71.319)" fill="#ffc000"/>
+    <rect id="Rectangle_804" data-name="Rectangle 804" width="14.609" height="25.692" transform="translate(11.344 5.597)" fill="#333"/>
+    <rect id="Rectangle_805" data-name="Rectangle 805" width="7.329" height="25.692" transform="translate(18.635 5.597)" fill="#1a1a1a"/>
+    <rect id="Rectangle_806" data-name="Rectangle 806" width="12.211" height="20.496" transform="translate(12.544 7.414)" fill="#8cc63f"/>
+    <rect id="Rectangle_807" data-name="Rectangle 807" width="6.129" height="20.496" transform="translate(18.633 7.414)" fill="#39b54a"/>
+    <rect id="Rectangle_808" data-name="Rectangle 808" width="3.575" height="12.003" transform="translate(15.069 11.662)" fill="#fff"/>
+    <rect id="Rectangle_809" data-name="Rectangle 809" width="3.575" height="6.014" transform="translate(15.069 17.661)" fill="#e0e0e0"/>
+    <ellipse id="Ellipse_174" data-name="Ellipse 174" cx="0.909" cy="0.909" rx="0.909" ry="0.909" transform="translate(17.741 28.559)" fill="#1a1a1a"/>
+    <path id="Path_911" data-name="Path 911" d="M255.691,392h-.024v1.815h.024a.909.909,0,1,0,0-1.817Z" transform="translate(-237.041 -363.441)"/>
+    <path id="Path_912" data-name="Path 912" d="M216.933,179.79l1.622-1.622-2.507-2.507h7.865v-2.293h-7.854l2.541-2.541-1.622-1.622-5.315,5.315Z" transform="translate(-196.227 -156.868)" fill="#005c83"/>
+    <path id="Path_913" data-name="Path 913" d="M211.663,242.328l5.27,5.27,1.622-1.622-2.507-2.507h7.865v-1.138Z" transform="translate(-196.227 -224.669)" fill="#00263f"/>
+  </g>
+</svg>

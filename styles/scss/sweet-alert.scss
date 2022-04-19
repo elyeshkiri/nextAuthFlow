@@ -1,0 +1,59 @@
+@import "variables.scss";
+
+
+// Sweet Alert Customize Design
+// .mat-dialog-container{
+//     padding: 15px !important;
+// }
+.noPadding .mat-dialog-container {
+    padding: 0 !important;
+}
+.close-popup{
+    top: -5px;
+    right: -5px;
+    height: 18px;
+}
+.swal2-title{
+    font-family: Poppins-Medium !important;
+    font-size: 20px !important;
+}
+.swal2-popup {
+    padding: 20px !important;
+    border-radius: 5px !important;
+}
+
+.swal2-icon {
+    display: none !important;
+}
+.swal2-styled{
+    padding: 10px !important;
+}
+.swal2-popup .swal2-styled:focus {
+    box-shadow: none !important;
+}
+.swal2-content{
+    font-size: 16px !important;
+}
+.swal2-popup .swal2-styled.swal2-confirm {
+    min-width: 130px;
+}
+
+.swal2-popup .swal2-styled.swal2-cancel {
+    min-width: 130px;
+}
+
+.sweetalert-cw {
+    border-top: 5px solid $warning-color;
+}
+
+.sweetalert-cs {
+    border-top: 5px solid $success-color;
+}
+
+.sweetalert-ce {
+    border-top: 5px solid $red-color;
+}
+
+.sweetalert-ci {
+    border-top: 5px solid $primary-color;
+}

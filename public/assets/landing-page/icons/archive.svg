@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="32" viewBox="0 0 23 32">
+  <g id="archive" transform="translate(-137 -301)">
+    <g id="Folder">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="11" height="32" rx="2" transform="translate(137 301)" fill="#fff"/>
+      <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(141 306)" fill="none" stroke="#ffd261" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+        <rect width="3" height="13" rx="1" stroke="none"/>
+        <rect x="0.5" y="0.5" width="2" height="12" rx="0.5" fill="none"/>
+      </g>
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(141 327)" fill="none" stroke="#ffd261" stroke-width="1">
+        <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+        <circle cx="1.5" cy="1.5" r="1" fill="none"/>
+      </g>
+      <line id="Line_18" data-name="Line 18" x2="2" transform="translate(141.5 320.5)" fill="none" stroke="#ffd261" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_19" data-name="Line 19" x2="2" transform="translate(141.5 322.5)" fill="none" stroke="#ffd261" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <g id="Folder-2" data-name="Folder" transform="translate(12)">
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="11" height="32" rx="2" transform="translate(137 301)" fill="#fff"/>
+      <g id="Rectangle_5-2" data-name="Rectangle 5" transform="translate(141 306)" fill="none" stroke="#ffd261" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+        <rect width="3" height="13" rx="1" stroke="none"/>
+        <rect x="0.5" y="0.5" width="2" height="12" rx="0.5" fill="none"/>
+      </g>
+      <g id="Ellipse_2-2" data-name="Ellipse 2" transform="translate(141 327)" fill="none" stroke="#ffd261" stroke-width="1">
+        <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+        <circle cx="1.5" cy="1.5" r="1" fill="none"/>
+      </g>
+      <line id="Line_18-2" data-name="Line 18" x2="2" transform="translate(141.5 320.5)" fill="none" stroke="#ffd261" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_19-2" data-name="Line 19" x2="2" transform="translate(141.5 322.5)" fill="none" stroke="#ffd261" stroke-linecap="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

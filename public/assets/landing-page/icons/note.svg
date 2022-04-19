@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.203" height="30.768" viewBox="0 0 27.203 30.768">
+  <g id="note" transform="translate(-91.398 -411.688)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="22" height="23" rx="2" transform="matrix(0.966, 0.259, -0.259, 0.966, 97.351, 414.545)" fill="#fff"/>
+    <g id="Group_10" data-name="Group 10" transform="matrix(0.966, 0.259, -0.259, 0.966, 104.986, 422.511)">
+      <line id="Line_32" data-name="Line 32" x1="5.271" transform="translate(3.953)" fill="none" stroke="#85edb3" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_33" data-name="Line 33" x1="7.906" transform="translate(1.318 3)" fill="none" stroke="#85edb3" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_34" data-name="Line 34" x1="5.271" transform="translate(3.953 6)" fill="none" stroke="#85edb3" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_35" data-name="Line 35" x1="6.589" transform="translate(2.635 9)" fill="none" stroke="#85edb3" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_36" data-name="Line 36" x1="9.224" transform="translate(0 12)" fill="none" stroke="#85edb3" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <g id="pen" transform="translate(114.237 4.393) rotate(13)">
+      <g id="Rectangle_17" data-name="Rectangle 17" transform="translate(78 403)" fill="none" stroke="#85edb3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+        <rect width="5" height="13" stroke="none"/>
+        <rect x="0.5" y="0.5" width="4" height="12" fill="none"/>
+      </g>
+      <line id="Line_37" data-name="Line 37" x2="2" y2="4" transform="translate(78.5 415.5)" fill="none" stroke="#85edb3" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_38" data-name="Line 38" x1="2" y2="4" transform="translate(80.5 415.5)" fill="none" stroke="#85edb3" stroke-linecap="round" stroke-width="1"/>
+      <g id="Rectangle_18" data-name="Rectangle 18" transform="translate(78 400)" fill="#fff" stroke="#85edb3" stroke-width="1">
+        <path d="M2.5,0h0A2.5,2.5,0,0,1,5,2.5V4A0,0,0,0,1,5,4H0A0,0,0,0,1,0,4V2.5A2.5,2.5,0,0,1,2.5,0Z" stroke="none"/>
+        <path d="M2.5.5h0a2,2,0,0,1,2,2v.6a.4.4,0,0,1-.4.4H.9a.4.4,0,0,1-.4-.4V2.5a2,2,0,0,1,2-2Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
