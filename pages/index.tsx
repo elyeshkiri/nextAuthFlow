@@ -4,7 +4,7 @@ import {
   useAppDispatch,
   useAppSelector,
 } from '../redux_toolkit/hooks';
-import {userSelector, logoutUser, refreshToken, loginUser} from "../features/auth/authSlice"
+import {userSelector, logoutUser, refreshToken} from "../features/auth/authSlice"
 const IndexPage:React.FC = () => {
   const dispatch = useAppDispatch()
   const isAuthenticated = useAppSelector(userSelector).isAuthenticated;
@@ -20,7 +20,7 @@ router.push("/login")
     <>
       <h1>Welcome to the greatest app in the world!</h1>
         <button
-          onClick={() =>        dispatch(logoutUser())}
+          onClick={() => dispatch(logoutUser())}
         >
           Logout
         </button>

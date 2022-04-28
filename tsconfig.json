@@ -13,6 +13,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "noImplicitAny": false,
     "incremental": true
   },
   "awesomeTypescriptLoaderOptions": {
@@ -21,6 +22,6 @@
     "doTypeCheck": true,
     "forkChecker": true
     },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "features/auth/authSlice.js", "pages/otp-verification.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "features/auth/authSlice.tsx", "pages/otp-verification.js"],
   "exclude": ["node_modules"]
 }

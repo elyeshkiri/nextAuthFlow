@@ -73,7 +73,7 @@ const Login = ({}) => {
         </ul>
       </div>
       <LeftSlider />
-      <form className="form-sign d-flex flex-column justify-content-center mb-3 mb-sm-0">
+      <form className="form-sign d-flex flex-column justify-content-center mb-3 mb-sm-0" onSubmit={handleSubmit}>
         <img
           className="mb-4"
           style={{

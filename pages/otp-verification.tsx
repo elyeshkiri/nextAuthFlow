@@ -28,7 +28,6 @@ export default function OTPVerification() {
             className="input-form p-2 rounded bg-light-grey mt-3"
             id="verficationCode"
             name="verficationCode"
-            formControlName="verficationCode"
             aria-describedby="emailHelp"
             placeholder="Enter verfication Code"
           />
